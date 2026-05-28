@@ -15,15 +15,17 @@
     }
     a{color:inherit;text-decoration:none}
     .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-    .hero{
-      min-height:100vh;
-      position:relative;
-      overflow:hidden;
-      background:
-        radial-gradient(circle at top left, rgba(212,175,55,.25), transparent 32%),
-        radial-gradient(circle at bottom right, rgba(255,255,255,.08), transparent 28%),
-        #080808;
-    }
+.hero{
+  min-height:100vh;
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)),
+    url('studio-bg.png');
+    
+  background-size:cover;
+  background-position:center;
+}
     header{
       display:flex;
       justify-content:space-between;
